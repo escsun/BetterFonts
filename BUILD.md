@@ -49,7 +49,7 @@ Use gradlew or gradlew.bat instead if you don't have Gradle installed.
 	
 ## 4. Apply patch file to FontRenderer.java
 
-    patch src/main/java/net/minecraft/client/gui/FontRenderer.java < FontRenderer1.7.10.java.patch
+    patch src/main/java/net/minecraft/client/gui/FontRenderer.java < src/main/java/net/minecraft/client/gui/FontRenderer/FontRenderer1.7.10.java.patch
 
 ## 5. Compile SRG version of BetterFonts
 
