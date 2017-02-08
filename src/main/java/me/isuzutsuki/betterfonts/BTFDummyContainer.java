@@ -16,7 +16,7 @@ public class BTFDummyContainer extends DummyModContainer{
 
 	private int majorVersion = 1;
 	private int minorVersion = 1;
-	private int revisionVersion = 3;
+	private int revisionVersion = 5;
 	
 	public BTFDummyContainer() {
 		super(new ModMetadata());
@@ -25,9 +25,9 @@ public class BTFDummyContainer extends DummyModContainer{
 		meta.name = "BetterFonts";
 		meta.version = String.format("%d.%d.%d", majorVersion, minorVersion, revisionVersion);
 		meta.credits = "thvortex for original codes";
-		meta.authorList = Arrays.asList("iSuzutsuki");
+		meta.authorList = Arrays.asList("iSuzutsuki, escsun");
 		meta.description = "";
-		meta.url = "https://secretdataz.github.io/BetterFonts";
+		meta.url = "https://github.com/escsun/BetterFonts";
 		meta.updateUrl = "";
 		meta.screenshots = new String[0];
 		meta.logoFile = "";
